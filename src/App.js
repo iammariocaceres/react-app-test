@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   console.log(process.env)
+  console.log(process.env.REACT_APP_PRUEBA)
   return (
     <div className="App">
       <header className="App-header">
